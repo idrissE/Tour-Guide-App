@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Dubai Tour Guide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="description">Description</string>
+    <!-- Categories names -->
+    <string name="featured">Featured</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="nature">Nature</string>
+    <!-- A lorem ipsum used as location description -->
+    <string name="lorem">Lorem ipsum dolor sit amet, ut eos legimus elaboraret, ludus aliquid fabellas sit cu. Et sonet delicata pri, in viris possim eloquentiam ius, utinam aperiam graecis id cum. Mea in tacimates imperdiet. Quem laudem graece ei usu, no prima laboramus his, et posse iudicabit expetendis vix. Vel cu propriae iracundia, mel dicat vituperatoribus ad.</string>
+    <!-- Hotels categories -->
+    <string name="five_stars">5 Stars</string>
+    <string name="four_stars">4 Stars</string>
+    <string name="three_stars">3 Stars</string>
+    <string name="two_stars">2 Stars</string>
+    <!--5 stars hotels names-->
+    <string name="hotel_5stars_1">Burj Al Arab Jumeirah</string>
+    <string name="hotel_5stars_2">Armani Hotel Dubai</string>
+    <string name="hotel_5stars_3">The Bulgari Resort Dubai</string>
+    <string name="hotel_5stars_4">Address Downtown</string>
+    <!--4 stars hotels names-->
+    <string name="hotel_4stars_1">Hotel 1</string>
+    <string name="hotel_4stars_2">Hotel 2</string>
+    <string name="hotel_4stars_3">Hotel 3</string>
+    <string name="hotel_4stars_4">Hotel 4</string>
+    <string name="hotel_4stars_5">Hotel 5</string>
+    <string name="hotel_4stars_6">Hotel 6</string>
+    <string name="hotel_4stars_7">Hotel 7</string>
+    <!--3 stars hotels names-->
+    <string name="hotel_3stars_1">Hotel 8</string>
+    <string name="hotel_3stars_2">Hotel 9</string>
+    <string name="hotel_3stars_3">Hotel 10</string>
+    <string name="hotel_3stars_4">Hotel 11</string>
+    <string name="hotel_3stars_5">Hotel 12</string>
+    <string name="hotel_3stars_6">Hotel 13</string>
+    <string name="hotel_3stars_7">Hotel 14</string>
+    <!--2stars hotels names-->
+    <string name="hotel_2stars_1">Hotel 15</string>
+    <string name="hotel_2stars_2">Hotel 16</string>
+    <string name="hotel_2stars_3">Hotel 17</string>
+    <string name="hotel_2stars_4">Hotel 18</string>
+    <string name="hotel_2stars_5">Hotel 19</string>
+    <string name="hotel_2stars_6">Hotel 20</string>
+    <string name="hotel_2stars_7">Hotel 21</string>
+    <!--Restaurants names-->
+    <string name="restaurant_1">Amaseena</string>
+    <string name="restaurant_2">Al Dawaar</string>
+    <string name="restaurant_4">Armani/Amal</string>
+    <string name="restaurant_5">Indego by Vineet</string>
+    <!--Natural attractions-->
+    <string name="natural_attr_1">Dubai Miracle Garden</string>
+    <string name="natural_attr_2">Dubai Water Canal</string>
+    <string name="natural_attr_3">Dubai Dolphinarium</string>
+</resources>

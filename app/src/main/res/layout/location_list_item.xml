@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItemContainer">
+
+    <ImageView
+        android:id="@+id/location_featured_img"
+        style="@style/ListImgStyle"
+        tools:src="@drawable/hotel2" />
+
+    <LinearLayout style="@style/ListInfoContainer">
+
+        <TextView
+            android:id="@+id/location_name"
+            style="@style/CardTextStyle"
+            tools:text="@string/hotel_5stars_1" />
+
+        <TextView
+            android:id="@+id/location_short_description"
+            style="@style/ItemDescStyle"
+            tools:text="@string/lorem" />
+    </LinearLayout>
+</RelativeLayout>

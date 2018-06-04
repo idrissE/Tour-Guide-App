@@ -1,0 +1,176 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FullLinearVerticalContainer" parent="FullContainerStyle">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ImageBaseStyle" parent="FullContainerStyle">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--Nav styles-->
+    <style name="DrawerStyle" parent="FullContainerStyle">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="NavStyle" parent="DrawerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+    </style>
+
+    <style name="NavHeaderStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/nav_header_height</item>
+    </style>
+
+    <!--Action bar styles-->
+    <style name="AppBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="AppBarStyle">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!--Card item styles-->
+    <style name="CardCustomStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_item_height</item>
+        <item name="android:layout_margin">@dimen/half_dim</item>
+    </style>
+
+    <style name="BookmarkBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:src">@drawable/ic_bookmark_border</item>
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <style name="RatingBtnsStyle" parent="@style/Widget.AppCompat.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CardTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+    </style>
+
+    <style name="CardImgContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="CardInfoContinerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/half_dim</item>
+    </style>
+
+    <!--List item styles-->
+    <style name="ListImgStyle">
+        <item name="android:layout_width">@dimen/list_image_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="ListItemContainer" parent="FullContainerStyle">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+
+    <style name="ListInfoContainer" parent="FullLinearVerticalContainer">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_toRightOf">@+id/location_featured_img</item>
+        <item name="android:padding">@dimen/base_dim</item>
+    </style>
+
+    <style name="ItemDescStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <!--Tablayout styles-->
+    <style name="TabLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextColor">@android:color/white</item>
+    </style>
+
+    <!--Location detail Styles -->
+    <style name="LocationTitleStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/base_dim</item>
+        <item name="android:layout_marginRight">@dimen/half_dim</item>
+        <item name="android:layout_marginTop">@dimen/half_dim</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="FavBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/base_dim</item>
+        <item name="android:layout_marginTop">@dimen/half_dim</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:tint">@color/colorPrimary</item>
+    </style>
+
+    <style name="DescHeaderStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/base_dim</item>
+        <item name="android:layout_marginTop">@dimen/base_dim</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="DescStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/base_dim</item>
+        <item name="android:layout_marginRight">@dimen/base_dim</item>
+        <item name="android:layout_marginTop">@dimen/half_dim</item>
+    </style>
+
+    <style name="DetailRatingBr" parent="@style/Widget.AppCompat.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/base_dim</item>
+        <item name="android:layout_marginTop">@dimen/half_dim</item>
+    </style>
+</resources>

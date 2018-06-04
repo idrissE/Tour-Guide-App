@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NavHeaderStyle"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        style="@style/ImageBaseStyle"
+        android:src="@drawable/hotel1" />
+
+</RelativeLayout>

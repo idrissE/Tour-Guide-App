@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="card_item_height">280dp</dimen>
+    <dimen name="base_dim">16dp</dimen>
+    <dimen name="half_dim">8dp</dimen>
+    <dimen name="quarter_dim">4dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_image_width">120dp</dimen>
+</resources>
